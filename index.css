@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body {
+    font-family: "Quicksand", serif;
+}
+
+.team-brain {
+    background-image: url(/resources/Background_decor@2x.png);
+    background-color: #F3F4F6;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position:  top left;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 50px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 320px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.our-team-b {
+    font-size: 24px;
+    color: #263FA9;
+}
+
+.team-the-b {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.brain-des {
+    font-size: 18px;
+}
+
+
+/* responsive style */
+@media screen and(max-width: 620) {
+    .team-brain {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
